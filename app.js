@@ -1,11 +1,11 @@
 var express = require('express')
 
 var app = new (express)()
-var port = 3000
+app.set('port', process.env.PORT || 3000)
 
 app.use(express.static(__dirname + '/client'))
 
-app.listen(port, function(error) {
+app.listen(app.get('port'), function(error) {
   if (error) {
     console.error(error)
   } else {
