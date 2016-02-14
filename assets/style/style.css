@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+.title h2{
+  padding-left: 20px;
+  font-size: 4em;
+  font-family: 'Satisfy', cursive;
+  color: #848482;
+}
