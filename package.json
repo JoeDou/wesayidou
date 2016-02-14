@@ -2,12 +2,12 @@
   "name": "wesayido",
   "version": "0.0.0",
   "description": "Wedding website for Joe and Lisa",
-  "main": "client/index.js",
-  "repository": "git@github.com:JoeDou/wesayidou.git",
+  "main": "index.js",
+  "repository": "git@github.com:Jo0Dou/wesayidou.git",
   "author": "",
   "license": "MIT",
   "engines": {
-    "node": ">=0.12.4"
+    "node": ">=0.10.40"
   },
   "devDependencies": {
     "babel-core": "^6.2.1",
