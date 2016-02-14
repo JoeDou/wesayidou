@@ -2,13 +2,13 @@
   "name": "wesayido",
   "version": "0.0.0",
   "description": "Wedding website for Joe and Lisa",
-  "main": "index.js",
+  "main": "client/index.js",
   "repository": "git@github.com:JoeDou/wesayidou.git",
-  "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
-  },
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=0.12.4"
+  },
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",

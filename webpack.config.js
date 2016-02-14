@@ -1,9 +1,9 @@
 var path = require('path')
-var ROOT_PATH = path.resolve(__dirname)
+var ROOT_PATH = path.resolve(__dirname +'/client')
 
 module.exports = {
   entry: [
-    './src/index.js'
+    './client/src/index.js'
   ],
   output: {
     filename: path.resolve(ROOT_PATH, 'bundle.js')
@@ -16,9 +16,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
-  },
-  devServer: {
-    historyApiFallback: true,
-    contentBase: './'
   }
 }
