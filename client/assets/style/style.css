@@ -1,8 +1,73 @@
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 
-.title h2{
+.title h2 {
   padding-left: 20px;
   font-size: 4em;
   font-family: 'Satisfy', cursive;
   color: #848482;
+}
+
+html, body {
+  height:100%;
+}
+
+.large-font {
+  padding-left: 10%;
+  font-size: 8em;
+  font-family: 'Satisfy', cursive;
+}
+
+.parallex {
+  min-height: 100vh;
+  padding-top: 35vh;
+  background-attachment: fixed;
+  background-size: cover;
+  position: static;
+  background-position: 80% 30%;
+}
+
+.navbar.navbar-cust {
+  background-color: white;
+  border-color: white;
+  margin: 10px;
+}
+
+.text-view {
+  min-height: 50vh;
+  background-color: white;
+}
+
+.navbar-brand.nav-title {
+  font-size: 2em;
+  padding-left: 30px;
+}
+
+.nav.nav-cust {
+  font-size: 1.25em;
+}
+
+.carousalImgContainer {
+  text-align: center;
+}
+
+.carousalImg {
+  max-height: 80vh;
+}
+
+.modalBackground {
+  background-color: black;
+}
+
+.modalBackground.modalHeader{
+  border-color: black;
+}
+
+.modalHeader button {
+  color: white;
+  opacity: 0.5;
+}
+
+.modalHeader button:hover {
+  color: white;
+  opacity: 0.9;
 }

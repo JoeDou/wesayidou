@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default () => (
-  <div className="wrapper">
+  <div className="wrapper height100">
     <div className="title">
       <h2>Building a Happily Ever After...</h2>
       <h2>Please Check Back</h2>
