@@ -5,6 +5,10 @@ app.set('port', process.env.PORT || 3001)
 
 app.use(express.static(__dirname + '/client'))
 
+app.get('*', function(request, response) {
+  response.sendfile(__dirname + '/client/index.html')
+})
+
 app.listen(app.get('port'), function(error) {
   if (error) {
     console.error(error)
