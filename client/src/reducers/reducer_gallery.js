@@ -1,12 +1,12 @@
 import { SHOW_GALLERY } from '../actions/index'
 
-const INITIAL_STATE = { gallery: { show: false } }
+const INITIAL_STATE = { showGallery: { show: false } }
 
 export default function(state=INITIAL_STATE, action){
   switch (action.type) {
     case SHOW_GALLERY:
       return { 
-        gallery: action.payload
+        showGallery: action.payload
       }
     default:
       return state

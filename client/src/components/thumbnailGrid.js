@@ -20,7 +20,7 @@ class ThumbnailGrid extends Component {
     })
 
     return (
-      <Grid>
+      <Grid className="gridContainer">
         <Row>
           {thumbnailList}
         </Row>
