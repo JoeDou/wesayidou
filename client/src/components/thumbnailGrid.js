@@ -14,7 +14,7 @@ class ThumbnailGrid extends Component {
     const thumbnailList = imageLocation.map( (location, index) => {
       return (
         <Col key={index} xs={6} md={3}>
-          <Thumbnail onClick={this.onThumbnailClick.bind(this, index)} alt="180x180" src={location} />
+          <Thumbnail className="thumbnail" onClick={this.onThumbnailClick.bind(this, index)} alt="180x180" src={location} />
         </Col>
       )
     })

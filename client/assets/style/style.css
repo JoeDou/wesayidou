@@ -14,6 +14,7 @@ html, body {
 
 .main-app {
   font-family: 'Playfair Display', serif;
+  font-size: 16px;
 }
 
 .large-font {
@@ -36,6 +37,34 @@ html, body {
   background-position: 80% 30%;
 }
 
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
 .navbar.navbar-cust {
   background-color: white;
   border-color: white;
@@ -56,8 +85,8 @@ html, body {
 }
 
 .navbar-brand.nav-title {
-  font-size: 2.5em;
-  padding-left: 30px;
+  font-size: 30px;
+  padding: 15px 0px 15px 20px;
   cursor: default;
 }
 
@@ -77,8 +106,16 @@ html, body {
 }
 
 .nav.nav-cust {
-  font-size: 1.5em;
+  font-size: 20px;
   font-weight: 200;
+}
+
+.navbar-collapse.collapse {
+  padding: 0px;
+}
+
+.thumbnail {
+  cursor: pointer;
 }
 
 .carousalImgContainer {
@@ -125,4 +162,9 @@ html, body {
 
 .center-text {
   text-align: center;
+}
+
+.halfBlockText {
+  background-color: white;
+  height: 100%;
 }

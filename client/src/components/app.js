@@ -8,7 +8,7 @@ export default class App extends Component {
 
     return (
       <div className="main-app">
-        <Navbar fluid={true} className="navbar-cust">
+        <Navbar fluid={true} className="navbar-cust" expanded={false}>
           <Navbar.Header>
             <Navbar.Brand className="nav-title">
               J O E  +  L I S A
@@ -17,9 +17,9 @@ export default class App extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight className="nav-cust">
-              <NavItem href="/test" active={location.pathname === '/test'}>Our Story</NavItem>
-              <NavItem href="/test/wedding-day" active={location.pathname === '/test/wedding-day'}>Wedding Day</NavItem>
-              <NavItem href="/test/wedding-party" active={location.pathname === '/test/wedding-party'}>Wedding Party</NavItem>
+              <NavItem href="/test" active={location.pathname === '/test'}>Home</NavItem>
+              <NavItem href="/test/our-story" active={location.pathname === '/test/our-story'}>Our Story</NavItem>
+              <NavItem href="/test/wedding-party" active={location.pathname === '/test/wedding-party'}>Participants</NavItem>
               <NavItem href="/test/lodging" active={location.pathname === '/test/lodging'}>Lodging</NavItem>
               <NavItem href="/test/rsvp" active={location.pathname === '/test/rsvp'}>RSVP</NavItem>
             </Nav>

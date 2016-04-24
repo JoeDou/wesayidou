@@ -23,7 +23,7 @@ class OurStory extends Component {
           url="/assets/images/OurStory-h1.jpg"
         />
         <div className="text-view">
-          <h5>September 26, 2008</h5>
+          <h4>September 26, 2008</h4>
           <h2>Her version</h2>
           <p> It was September 2008. I just started nursing school in Philadelphia three months prior. I planned to go to a graduate school 
           meet and greet, but decided not to last minute (it rained and that was my excuse). A friend ended up calling me and convinced me to 
@@ -42,7 +42,7 @@ class OurStory extends Component {
           position="35% 30%"
         />
         <div className="text-view">
-          <h5>June 19, 2016</h5>
+          <h4>June 19, 2016</h4>
           <h2>The Proposal</h2>
           <p>Joe proposed after work on a Friday. Lisa was not expecting it to happen that day at all. Her sisters had stayed over the night before 
           and were staying over again. Lisa called Joe around five and asked him what they were all doing for dinner.</p>

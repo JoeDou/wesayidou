@@ -23,21 +23,21 @@ export default class extends Component {
         />
         <div className="text-view center-text">
           <h2>Extended Stay America</h2>
-          <h4>1775 Francisco Blvd.</h4>
-          <h4>San Rafael, CA 94901</h4>
-          <p><a>http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east</a></p>
+          <h3>1775 Francisco Blvd.</h3>
+          <h3>San Rafael, CA 94901</h3>
+          <p><a href="http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east" target="_blank">http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east</a></p>
           <br/>
-          <h4>To reserve:</h4>
+          <h3>To reserve:</h3>
           <p>Call 415-451-1887 to reserve your room, hotel block under “Lisa and Joe Wedding”</p>
           <br/>
-          <h4>Cost:</h4>
+          <h3>Cost:</h3>
           <p>$159/night for a single king - 1 adult per room</p>
           <p>$169/night for a deluxe king - 2 adults per room</p>
           <p>$5 additional per additional adult per room</p>
           <p>Note: Tax and Fees not included</p>
           <p>Group rate valid until 8/4/2016 only or on a room and rate availability basis</p>
           <br/>
-          <h4>Proximity:</h4>
+          <h3>Proximity:</h3>
           <p>From this hotel to the ceremony: 15.1 miles south, average 21 minute drive</p>
           <p>From the reception to this hotel: 6.8 miles north, average 12 minute drive</p>
         </div>
@@ -48,48 +48,51 @@ export default class extends Component {
         />
         <div className="text-view center-text">
           <h2>Hotel Nikko</h2>
-          <h4>222 Mason Street</h4>
-          <h4>San Francisco, CA 94102</h4>
-          <p><a>http://www.hotelnikkosf.com/</a></p>
+          <h3>222 Mason Street</h3>
+          <h3>San Francisco, CA 94102</h3>
+          <p><a href="http://www.hotelnikkosf.com/" target="_blank">http://www.hotelnikkosf.com/</a></p>
           <br/>
-          <h4>To reserve:</h4>
-          <p>Go online: <a href="https://aws.passkey.com/g/58087516">Click Here</a></p>
+          <h3>To reserve:</h3>
+          <p>Go online: <a href="https://aws.passkey.com/g/58087516" target="_blank">Click Here</a></p>
           <p>Call (415) 394-1111 or toll-free at 1(800) 248-3308; group name is “Uy Dou Wedding Group”</p>
           <br/>
-          <h4>Cost:</h4>
+          <h3>Cost:</h3>
           <p>$239/night + taxes and fees for a deluxe king room</p>
           <p>$269/night + taxes and fees for a deluxe double bedded room</p>
           <p>Note: Tax and Fees not included</p>
           <p>Group rate valid until 8/2/2016 or on a room and rate availability basis</p>
           <br/>
-          <h4>Other info:</h4>
+          <h3>Other info:</h3>
           <p>Use of health club is additional $25/room/stay</p>
           <p>Early departure fee of 1 night’s room and tax will be charged if a guest checks out prior to your reserved checkout date; late 
           departure charge also applies</p>
           <br/>
-          <h4>Proximity:</h4>
+          <h3>Proximity:</h3>
           <p>From this hotel to the ceremony: 3.9 miles or average 15 min drive</p>
           <p>From the reception to this hotel: 13.2 miles south or average 27 min drive</p>
           <br/><br/>
           <h2>Courtyard by Marriott San Francisco Union Square</h2>
-          <h4>761 Post Street</h4>
-          <h4>San Francisco, CA 94109</h4>
-          <p><a>http://www.hotelnikkosf.com/</a></p>
+          <h3>761 Post Street</h3>
+          <h3>San Francisco, CA 94109</h3>
+          <p><a href="http://www.hotelnikkosf.com/" target="_blank">http://www.hotelnikkosf.com/</a></p>
           <br/>
-          <h4>To reserve:</h4>
-          <p>Go online: <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Uy%20Dou%20Wedding%5Esfocn%60udwudwa%7Cudwudwb%60179%60USD%60false%604%609/3/16%609/4/16%608/3/16&app=resvlink&stop_mobi=yes">Click Here</a></p>
+          <h3>To reserve:</h3>
+          <p>Go online: 
+            <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Uy%20Dou%20Wedding%5Esfocn%60udwudwa%7Cudwudwb%60179%60USD%60false%604%609/3/16%609/4/16%608/3/16&app=resvlink&stop_mobi=yes"
+              target="_blank">Click Here</a>
+          </p>
           <p>Call Marriott Reservations at 1(888) 236-2427, group name “Uy Dou Wedding Group”</p>
           <br/>
-          <h4>Cost:</h4>
+          <h3>Cost:</h3>
           <p>$179/night + taxes and fees for a single bedded or a double bedded room</p>
           <p>Note: Tax and Fees not included</p>
           <p>Group rate valid until 8/1/2016 or on a room and rate availability basis</p>
           <br/>
-          <h4>Other info:</h4>
+          <h3>Other info:</h3>
           <p>Please note that this hotel is not right at Union Square but a 0.4 mile/9 min walk; it is at the edge of the Tenderloin district but 
           seems ok (we personally checked out the area)</p>
           <br/>
-          <h4>Proximity:</h4>
+          <h3>Proximity:</h3>
           <p>From this hotel to the ceremony: 3.7 miles or an average 15 minute drive</p>
           <p>From the reception to this hotel: 12.8 miles south or an average 24 minute drive</p>
         </div>
