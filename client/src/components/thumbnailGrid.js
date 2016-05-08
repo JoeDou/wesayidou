@@ -5,15 +5,15 @@ import { connect } from 'react-redux'
 import { showGallery } from '../actions/index'
 
 class ThumbnailGrid extends Component {
-  onThumbnailClick(index, e){
+  onThumbnailClick(index, e) {
     e.preventDefault()
     this.props.showGallery(true, index)
   }
 
-  render(){
-    const thumbnailList = imageLocation.map( (location, index) => {
+  render() {
+    const thumbnailList = imageLocation.map((location, index) => {
       return (
-        <Col key={index} xs={6} md={3}>
+        <Col key={index} xs={6} md={4} lg={3}>
           <Thumbnail className="thumbnail" onClick={this.onThumbnailClick.bind(this, index)} alt="180x180" src={location} />
         </Col>
       )

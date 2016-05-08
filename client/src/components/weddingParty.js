@@ -1,45 +1,77 @@
 import React from 'react'
 import { Component } from 'react'
 
-import HalfBlockView from './halfBlockView'
-import FullBlockView from './fullBlockView'
+import { Image } from 'react-bootstrap'
+import { guys, gals } from '../constants/constants'
+
+const sampleText = `asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
+              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa`
+
+const ProfileCard = ({ name, title, paragraph, url }) => (
+  <div className="profile-card clearfix">
+    <div className="profile-header">
+      <Image className="profile-avatar" src={url} rounded />
+      <div className="profile-body">
+        <h2>{name}</h2>
+        <h4>{title}</h4>
+        <p className="test">{paragraph}</p>
+      </div>
+    </div>
+  </div>
+)
+
+const weddingPartyGuys = () => {
+  return guys.map(person => {
+    let { name, title, paragraph, url } = person
+    return <ProfileCard key={name} name={name} title={title} paragraph={paragraph} url={url}/>
+  })
+}
+
+const weddingPartyGals = () => {
+  return gals.map(person => {
+    let { name, title, paragraph, url } = person
+    return <ProfileCard key={name} name={name} title={title} paragraph={paragraph} url={url}/>
+  })
+}
 
 export default class extends Component {
 
   render() {
     return (
       <div>
-        <HalfBlockView
-          text="Ceremony"
-          url="/assets/images/WeddingDay-h1.jpg"
-          position="40% 30%"
-          dark={true}
-        />
-        <div className="text-view center-text">
-
-        test
-        test
+        <div className="large-font black center party-heading">Ladies</div>
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
+            <img className= "profile-full" src="/assets/images/wedding-party/Lisa.jpg" />
+            <div className="profile-full-text">
+              <h1>Lisa Uy</h1>
+              <h3>Bride</h3>
+              <p>{sampleText}</p>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            { weddingPartyGals() }
+          </div>
         </div>
-        <FullBlockView
-          text="Reception"
-          url="/assets/images/WeddingDay-h2.jpg"
-          dark={true}
-        />
-        <div className="text-view center-text">
-          <h2>Mill Valley Community Center</h2>
-          <h4>180 Camino Alto</h4>
-          <h4>Mill Valley, CA 94941</h4>
-          <br/>
-          <h4>Cocktail hour will start at 5:30 PM</h4>
-          <h4>Buffet-style dinner to start at 6:45 PM</h4>
-          <h4>Drinks, dancing and wedding festivities until 11:00 PM</h4>
-          <br/><br/>
-          <h4>Background</h4>
-          <p>Located 10 miles north of the Chapel of Our Lady, it is a short 16 minute drive across the Golden Gate Bridge. However, please 
-          allow for extra time, just in case (Bay Area traffic, you never know!).</p>
-          <br/>
-          <h4>Parking</h4>
-          <p>Free</p>
+        <div className="large-font black party-heading">Gentlemen</div>
+        <div className="row">
+          <div className="col-md-6 col-sm-12">
+            <img className= "profile-full" src="/assets/images/wedding-party/Joe.jpg" />
+            <div className="profile-full-text">
+              <h1> Joe Dou</h1>
+              <h3>Groom</h3>
+              <p>{sampleText}</p>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-12">
+            { weddingPartyGuys() }
+          </div>
         </div>
       </div>
     )

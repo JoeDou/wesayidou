@@ -28,6 +28,14 @@ html, body {
   color: black;
 }
 
+.party-heading {
+  text-align: center;
+  margin:20px;
+  padding: 0px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
 .parallex {
   min-height: 100vh;
   padding-top: 35vh;
@@ -35,34 +43,6 @@ html, body {
   background-size: cover;
   position: static;
   background-position: 80% 30%;
-}
-
-/** 
- * iPad with portrait orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
-  .parallex {
-    background-attachment: scroll;
-  }
-}
-
-/** 
- * iPad with landscape orientation.
- */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
-  .parallex {
-    background-attachment: scroll;
-  }
-}
-
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-@media screen and (device-aspect-ratio: 40/71) {
-  .parallex {
-    background-attachment: scroll;
-  }
 }
 
 .navbar.navbar-cust {
@@ -74,11 +54,15 @@ html, body {
 .text-view {
   min-height: 50vh;
   background-color: white;
-  margin: 35px;
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .text-header {
-  border: 1px solid #777;
+  border: 2px solid black;
+  border-radius: 25px;
   font-size: 16px;
   padding: 15px;
   margin: 20px;
@@ -106,7 +90,7 @@ html, body {
 }
 
 .nav.nav-cust {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -167,4 +151,113 @@ html, body {
 .halfBlockText {
   background-color: white;
   height: 100%;
+}
+
+.profile-full-text {
+  margin-left: 10px;
+}
+
+.profile-full {
+  max-width: 100%;
+  max-height:100%;
+  margin-left: 10px;
+}
+
+.profile-card {
+  margin: 15px 0px;
+  margin-right: 10px;
+}
+
+.profile-avatar {
+  float: left;
+  height: 130px;
+  margin-right: 10px;
+}
+
+.profile-body {
+  overflow:hidden;
+}
+
+.profile-body h2 {
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 44px;
+  margin-top: 0px;
+}
+
+.profile-body h4 {
+  font-style: italic;
+}
+
+.test {
+  text-align: justify;
+  font-size: 14px;
+}
+
+/** 
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .parallex {
+    background-attachment: scroll;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .collapse {
+    display: none !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in { 
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
 }

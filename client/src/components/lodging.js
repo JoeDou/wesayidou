@@ -9,11 +9,17 @@ export default class extends Component {
     return (
       <div>
         <div className="text-header">
-          <div>Since the wedding is during Labor Day Weekend, most of the hotels in the Mill Valley/North Bay area have a 2 or 3 day minimum 
-          stay. We reserved hotel room blocks in the following hotels that did not require a 2 or 3 night minimum stay in the North Bay and 
-          downtown San Francisco area. If you would like to stay Friday night as well, most of them will give you the same rate as Saturday if 
-          available. We also recommend looking into other hotels that we did not book a hotel block with--you might be able to find a better deal 
-          in the area that you prefer!</div>
+          <p>Dear Guests,</p>
+          <br/>
+          <p>Since the wedding is during Labor Day Weekend, most of the hotels in the Mill Valley/North Bay 
+            area have a 2 or 3 day minimum stay. We reserved hotel room blocks in the following hotels that did 
+            not require a 2 or 3 night minimum stay. If you choose to stay the night before or after, these hotels 
+            may be able to give you the same rate depending on availability. We also recommend looking into other 
+            hotels--you might be able to find a better deal!
+          </p>
+          <br/>
+          <p>Love,</p>
+          <p>Joe and Lisa</p>
         </div>
         <FullBlockView
           text="North Bay"
@@ -42,7 +48,7 @@ export default class extends Component {
           <p>From the reception to this hotel: 6.8 miles north, average 12 minute drive</p>
         </div>
         <FullBlockView
-          text="Downtown"
+          text="San Francisco"
           url="/assets/images/Lodging-h2.jpg"
           dark={true}
         />
@@ -71,6 +77,8 @@ export default class extends Component {
           <p>From this hotel to the ceremony: 3.9 miles or average 15 min drive</p>
           <p>From the reception to this hotel: 13.2 miles south or average 27 min drive</p>
           <br/><br/>
+        </div>
+        <div className="text-view center-text">
           <h2>Courtyard by Marriott San Francisco Union Square</h2>
           <h3>761 Post Street</h3>
           <h3>San Francisco, CA 94109</h3>
