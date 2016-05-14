@@ -11,7 +11,7 @@ export default class extends Component {
         <div className="text-header">
           <p>Dear Guests,</p>
           <br/>
-          <p>Since the wedding is during Labor Day Weekend, most of the hotels in the Mill Valley/North Bay 
+          <p>Since the wedding is on Labor Day Weekend, most of the hotels in the Mill Valley/North Bay 
             area have a 2 or 3 day minimum stay. We reserved hotel room blocks in the following hotels that did 
             not require a 2 or 3 night minimum stay. If you choose to stay the night before or after, these hotels 
             may be able to give you the same rate depending on availability. We also recommend looking into other 
@@ -63,8 +63,8 @@ export default class extends Component {
           <p>Call (415) 394-1111 or toll-free at 1(800) 248-3308; group name is “Uy Dou Wedding Group”</p>
           <br/>
           <h3>Cost:</h3>
-          <p>$239/night + taxes and fees for a deluxe king room</p>
-          <p>$269/night + taxes and fees for a deluxe double bedded room</p>
+          <p>$239/night for a deluxe king room</p>
+          <p>$269/night for a deluxe double bedded room</p>
           <p>Note: Tax and Fees not included</p>
           <p>Group rate valid until 8/2/2016 or on a room and rate availability basis</p>
           <br/>
@@ -92,7 +92,7 @@ export default class extends Component {
           <p>Call Marriott Reservations at 1(888) 236-2427, group name “Uy Dou Wedding Group”</p>
           <br/>
           <h3>Cost:</h3>
-          <p>$179/night + taxes and fees for a single bedded or a double bedded room</p>
+          <p>$179/night for a single bed or a double bed room</p>
           <p>Note: Tax and Fees not included</p>
           <p>Group rate valid until 8/1/2016 or on a room and rate availability basis</p>
           <br/>

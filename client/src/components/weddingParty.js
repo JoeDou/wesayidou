@@ -4,15 +4,6 @@ import { Component } from 'react'
 import { Image } from 'react-bootstrap'
 import { guys, gals } from '../constants/constants'
 
-const sampleText = `asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa
-              asdfasdfadsf asdfasdfa asdfasdfas asdfafasd asdfasdfasd sdfsafdas asdfa`
-
 const ProfileCard = ({ name, title, paragraph, url }) => (
   <div className="profile-card clearfix">
     <div className="profile-header">
@@ -51,8 +42,6 @@ export default class extends Component {
             <img className= "profile-full" src="/assets/images/wedding-party/Lisa.jpg" />
             <div className="profile-full-text">
               <h1>Lisa Uy</h1>
-              <h3>Bride</h3>
-              <p>{sampleText}</p>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
@@ -65,8 +54,6 @@ export default class extends Component {
             <img className= "profile-full" src="/assets/images/wedding-party/Joe.jpg" />
             <div className="profile-full-text">
               <h1> Joe Dou</h1>
-              <h3>Groom</h3>
-              <p>{sampleText}</p>
             </div>
           </div>
           <div className="col-md-6 col-sm-12">

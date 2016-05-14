@@ -11,7 +11,7 @@ export default class extends Component {
         <FullBlockView
           text="September 3, 2016"
           url="/assets/images/Title-h1.jpg"
-          position="40% 30%"
+          position="65% 30%"
           dark={true}
         />
         <FullBlockView
@@ -33,10 +33,11 @@ export default class extends Component {
           <br/><br/>
           <h3>Parking</h3>
           <p>$1.20-1.80 per hour; there is plenty of parking but if there is a Presidio event, it might be limited. We will keep 
-          you posted. If you want to leave your car here to carpool with someone or uber/lyft for the reception, pay until 6 PM and leave the 
-          tag in the car. Please allow for time to find parking and carpool if possible--it’s more fun!</p>
+          you posted. Please allow for time to find parking and carpool if possible--it’s more fun!</p>
           <br/>
-          <p><a href="http://www.presidio.gov/transportation/Pages/Driving-and-Parking.aspx">Click here</a> for more information on parking in the Presidio</p>
+          <p><a href="http://www.presidio.gov/transportation/Pages/Driving-and-Parking.aspx">More information on parking in the Presidio</a></p>
+          <br/>
+          <p><a href="https://goo.gl/maps/J1cjwLn5NYp">Directions from the ceremony to the reception</a></p>
         </div>
         <FullBlockView
           text="Reception"

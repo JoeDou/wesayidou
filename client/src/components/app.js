@@ -17,15 +17,16 @@ export default class App extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight className="nav-cust">
-              <NavItem href="/test" active={location.pathname === '/test'}>Home</NavItem>
-              <NavItem href="/test/our-story" active={location.pathname === '/test/our-story'}>Our Story</NavItem>
-              <NavItem href="/test/wedding-party" active={location.pathname === '/test/wedding-party'}>Wedding Party</NavItem>
-              <NavItem href="/test/lodging" active={location.pathname === '/test/lodging'}>Lodging</NavItem>
-              <NavItem href="/test/rsvp" active={location.pathname === '/test/rsvp'}>RSVP</NavItem>
+              <NavItem href="/" active={location.pathname === '/'}>Home</NavItem>
+              <NavItem href="/our-story" active={location.pathname === '/our-story'}>Our Story</NavItem>
+              <NavItem href="/wedding-party" active={location.pathname === '/wedding-party'}>Wedding Party</NavItem>
+              <NavItem href="/lodging" active={location.pathname === '/lodging'}>Lodging</NavItem>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        { children }
+        <div className="main-body">
+          { children }
+        </div>
       </div>
     )
   }

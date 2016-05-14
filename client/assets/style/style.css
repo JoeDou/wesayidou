@@ -17,6 +17,10 @@ html, body {
   font-size: 16px;
 }
 
+.main-body {
+  margin-bottom: 20px;
+}
+
 .large-font {
   color: white;
   padding-left: 10%;
@@ -155,6 +159,13 @@ html, body {
 
 .profile-full-text {
   margin-left: 10px;
+}
+
+.profile-full-text h1 {
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
 }
 
 .profile-full {

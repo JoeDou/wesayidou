@@ -8,14 +8,11 @@ import Lodging from './components/lodging'
 import WeddingParty from './components/weddingParty'
 
 export default (
-  <Route path="/">
-    <IndexRoute component={UnderConstruction} />
-    <Route path="/test" component={App}>
-      <IndexRoute component={WeddingDay} />
-      <Route path="our-story" component={OurStory} />
-      <Route path="wedding-party" component={WeddingParty} />
-      <Route path="lodging" component={Lodging} />
-      <Route path="rsvp" component={UnderConstruction} />
-    </Route>
+  <Route path="/" component={App}>
+    <IndexRoute component={WeddingDay} />
+    <Route path="our-story" component={OurStory} />
+    <Route path="wedding-party" component={WeddingParty} />
+    <Route path="lodging" component={Lodging} />
+    <Route path="rsvp" component={UnderConstruction} />
   </Route>
 )
