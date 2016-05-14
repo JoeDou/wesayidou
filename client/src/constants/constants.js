@@ -61,7 +61,7 @@ export const guys = [
 
 export const gals = [
   {
-    name: 'Anne Uy',
+    name: 'Anne Cutaran',
     title: 'Matron of Honor',
     url: '/assets/images/wedding-party/anne.jpg',
     paragraph: 'Anne is the ultimate foodie, queen of useful facts and awesome mommy to Annison Jae. Anne is the best older sister one can have, although it didn’t start like that to begin with (she was very bossy and demanding growing up). I’ve always admired her lighthearted spirit, great fashion sense and patience for all three of her annoying younger sisters.'
@@ -76,7 +76,7 @@ export const gals = [
     url: '/assets/images/wedding-party/grace.jpg',
     paragraph: 'Grace and I quickly bonded as Californians in our nursing program in Philly. I’m not sure if I would have survived nursing school without her! I love Grace’s dry sense of humor, wit and that she keeps it real, no matter what.'
   }, {
-    name: 'Gem Sagucio',
+    name: 'Gem Gutierrez',
     title: 'Bridesmaid',
     url: '/assets/images/wedding-party/gem.jpg',
     paragraph: 'Gem was one of my first friends in the States! Gem has always been like an older sister to me, and we share so many good memories together. I’ve always admired her drive and determination.'
