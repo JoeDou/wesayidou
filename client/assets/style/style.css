@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Tangerine);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 .title h2 {
   padding-left: 20px;
   font-size: 4em;
@@ -13,7 +12,7 @@ html, body {
 }
 
 .main-app {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Libre Baskerville', serif;
   font-size: 16px;
 }
 
