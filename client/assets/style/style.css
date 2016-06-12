@@ -22,12 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-.h2, h2 {
+h2 {
   font-size: 22px;
   line-height:32px;
 }
 
-.h3, h3 {
+h3 {
   color: #3e3e3e;
   font-size: 12px;
   font-weight: 700;
@@ -35,7 +35,7 @@ a:hover {
   text-transform:uppercase;
 }
 
-.h4, h4 {
+h4 {
   font-size: 18px;
 }
 
@@ -86,13 +86,13 @@ a:hover {
 .text-view {
   min-height: 50vh;
   background-color: white;
-  margin: 20px 300px 20px 300px;
-  padding: 80px 100px 80px 100px;
+  margin: 20px 300px;
+  padding: 80px 100px;
 }
 
 .text-header {
   font-size: 16px;
-  padding: 15px 300px 15px 300px;
+  padding: 15px 300px;
   margin: 20px;
 }
 
