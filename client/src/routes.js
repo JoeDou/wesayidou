@@ -6,6 +6,8 @@ import OurStory from './components/ourStory'
 import WeddingDay from './components/weddingDay'
 import Lodging from './components/lodging'
 import WeddingParty from './components/weddingParty'
+import Rsvp from './components/rsvp'
+import Thankyou from './components/thankyou'
 
 export default (
   <Route path="/" component={App}>
@@ -13,6 +15,7 @@ export default (
     <Route path="our-story" component={OurStory} />
     <Route path="wedding-party" component={WeddingParty} />
     <Route path="lodging" component={Lodging} />
-    <Route path="rsvp" component={UnderConstruction} />
+    <Route path="rsvp" component={Rsvp} />
+    <Route path="thankyou" component={Thankyou} />
   </Route>
 )

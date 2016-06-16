@@ -245,6 +245,57 @@ h4 {
   font-size: 14px;
 }
 
+.rsvpForm {
+  width:30%;
+  margin:80px auto;
+
+}
+
+.inviteForm {
+  width:50%;
+  margin:80px auto;
+}
+
+.btn-findRsvp {
+  color: #fff;
+  background-color: #f8b4a4;
+  border-color: #f3785b;
+}
+
+.btn-findRsvp.focus, .btn-findRsvp:focus, .btn-findRsvp:hover {
+  color: #f3785b;
+  text-decoration: none;
+}
+
+.invitee-name {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.rsvp-text {
+  margin: 20px 0px;
+}
+
+.retry {
+  text-align: center;
+}
+
+.retry-msg {
+  margin: 20px;
+}
+
+.thankyou {
+  padding:20px;
+  text-align: center;
+}
+
+.thankyou-msg {
+  margin: 50px;
+  font-size: 6em;
+  letter-spacing:normal;
+  font-family: 'Parisienne', cursive;
+}
+
 /**
  * iPad with portrait orientation.
  */
@@ -311,4 +362,50 @@ h4 {
   .collapsing {
     overflow: hidden!important;
   }
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "Yes";
+    padding-left: 10px;
+    background-color: #f8b4a4; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "No";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 20px; margin: 5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
 }
