@@ -26,6 +26,7 @@ class Rsvp extends Component {
 
   onSubmitInvite(evet) {
     event.preventDefault()
+    this.props.invite.payload.responded = true
     this.props.saveInvite(this.props.invite.payload).then(() => {
       this.context.router.push('/thankyou')
     })

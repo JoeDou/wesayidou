@@ -49,13 +49,13 @@ InviteHandler.prototype.updateInvite = function(req, res) {
         }
       )
     })
-
     update.push(Invite.promFindOneAndUpdate(
       {
         uuid: req.params.id
       }, {
         restrictions: req.body.restrictions,
-        comments: req.body.comments
+        comments: req.body.comments,
+        responded: req.body.responded
       }
     ))
 

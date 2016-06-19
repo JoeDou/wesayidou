@@ -7,7 +7,8 @@ var inviteSchema = mongoose.Schema({
   uuid:         {type: Number, required: true, index: {unique: true}},
   invitee:      [guestSchema],
   restrictions: {type: String},
-  comments:     {type: String}
+  comments:     {type: String},
+  responded:    {type: Boolean, default: false}
 });
 
 var Invite = mongoose.model('Invite', inviteSchema);
