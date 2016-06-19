@@ -28,10 +28,9 @@ export default class extends Component {
           dark={true}
         />
         <div className="text-view center-text">
-          <h2>Extended Stay America</h2>
+          <h2><a href="http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east" target="_blank">Extended Stay America</a></h2>
           <h3>1775 Francisco Blvd.</h3>
           <h3>San Rafael, CA 94901</h3>
-          <p><a href="http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east" target="_blank">http://www.extendedstayamerica.com/hotels/ca/oakland/francisco-blvd-east</a></p>
           <br/>
           <h3>To reserve:</h3>
           <p>Call 415-451-1887 to reserve your room, hotel block under “Lisa and Joe Wedding”</p>
@@ -53,10 +52,9 @@ export default class extends Component {
           dark={true}
         />
         <div className="text-view center-text">
-          <h2>Hotel Nikko</h2>
+          <h2><a href="http://www.hotelnikkosf.com/" target="_blank">Hotel Nikko</a></h2>
           <h3>222 Mason Street</h3>
           <h3>San Francisco, CA 94102</h3>
-          <p><a href="http://www.hotelnikkosf.com/" target="_blank">http://www.hotelnikkosf.com/</a></p>
           <br/>
           <h3>To reserve:</h3>
           <p>Go online: <a href="https://aws.passkey.com/g/58087516" target="_blank">Click Here</a></p>
@@ -79,15 +77,14 @@ export default class extends Component {
           <br/><br/>
         </div>
         <div className="text-view center-text">
-          <h2>Courtyard by Marriott San Francisco Union Square</h2>
+          <h2><a href="http://www.hotelnikkosf.com/" target="_blank">Courtyard by Marriott San Francisco Union Square</a></h2>
           <h3>761 Post Street</h3>
           <h3>San Francisco, CA 94109</h3>
-          <p><a href="http://www.hotelnikkosf.com/" target="_blank">http://www.hotelnikkosf.com/</a></p>
           <br/>
           <h3>To reserve:</h3>
           <p>Go online: 
             <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Uy%20Dou%20Wedding%5Esfocn%60udwudwa%7Cudwudwb%60179%60USD%60false%604%609/3/16%609/4/16%608/3/16&app=resvlink&stop_mobi=yes"
-              target="_blank">Click Here</a>
+              target="_blank"> Click Here</a>
           </p>
           <p>Call Marriott Reservations at 1(888) 236-2427, group name “Uy Dou Wedding Group”</p>
           <br/>

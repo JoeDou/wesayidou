@@ -86,14 +86,12 @@ h4 {
 .text-view {
   min-height: 50vh;
   background-color: white;
-  margin: 20px 300px;
-  padding: 80px 100px;
+  margin: 100px 300px;
 }
 
 .text-header {
   font-size: 16px;
-  padding: 15px 300px;
-  margin: 20px;
+  margin: 35px 300px;
 }
 
 .navbar-brand.nav-title {
@@ -303,6 +301,12 @@ h4 {
   .parallex {
     background-attachment: scroll;
   }
+  .text-view {
+    margin: 100px 100px;
+  }
+  .text-header {
+    margin: 20px 100px;
+  }
 }
 
 /**
@@ -312,17 +316,35 @@ h4 {
   .parallex {
     background-attachment: scroll;
   }
+  .text-view {
+    margin: 100px 100px;
+  }
+  .text-header {
+    margin: 20px 100px;
+  }
 }
 
 @media only screen and (max-device-width: 768px) {
   .parallex {
     background-attachment: scroll;
   }
+  .text-view {
+    margin: 100px 100px;
+  }
+  .text-header {
+    margin: 20px 100px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
   .collapse {
     display: none !important;
+  }
+  .text-view {
+    margin: 100px 100px;
+  }
+  .text-header {
+    margin: 20px 100px;
   }
 }
 
