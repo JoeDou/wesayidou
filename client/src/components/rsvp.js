@@ -87,6 +87,9 @@ class Rsvp extends Component {
                 </label>
               </div>
             </td>
+            <td className="tableWidth">
+              {guest.accepted ? "I'm coming to party" : "Have fun without me"}
+            </td>
           </tr>
         )
       })
