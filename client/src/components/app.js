@@ -31,6 +31,7 @@ export default class App extends Component {
               <NavItem onClick={this.onClickLink.bind(this, '/our-story')} active={location.pathname === '/our-story'}>Our Story</NavItem>
               <NavItem onClick={this.onClickLink.bind(this, '/wedding-party')} active={location.pathname === '/wedding-party'}>Wedding Party</NavItem>
               <NavItem onClick={this.onClickLink.bind(this, '/lodging')} active={location.pathname === '/lodging'}>Lodging</NavItem>
+              <NavItem onClick={this.onClickLink.bind(this, '/registry')} active={location.pathname === '/registry'}>Registry</NavItem>
               <NavItem onClick={this.onClickLink.bind(this, '/rsvp')} active={location.pathname === '/rsvp'}>RSVP</NavItem>
             </Nav>
           </Navbar.Collapse>

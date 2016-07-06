@@ -35,4 +35,4 @@ node_modules
 # webpack
 client/bundle.js
 
-client/assets/.DS_Store
+.DS_Store
